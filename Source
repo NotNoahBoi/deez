@@ -1,0 +1,77 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Noahs Script Menu", "Midnight")
+
+-- Simple Spy
+local BGS = Window:NewTab("Simple Spy")
+local SecondSection = BGS:NewSection("SS")
+
+SecondSection:NewButton("Load Script", "Shows you what is being done", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/exxtremestuffs/SimpleSpySource/master/SimpleSpy.lua'))()
+end)
+
+-- Bubble Gum Simulator
+local BGS = Window:NewTab("Bubble Gum Simulator")
+local FirstSection = BGS:NewSection("BGS")
+
+FirstSection:NewButton("Load Script", "loads the Bubble Gum Simulator script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/scripts/main/BubbleGumQoucxHub.lua"))()
+end)
+
+-- Arsenal
+local BGS = Window:NewTab("Arsenal")
+local SecondSection = BGS:NewSection("Arsenal")
+
+SecondSection:NewButton("Load Script", "loads the Arsenal script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+
+-- Your Bizare Adventure
+local BGS = Window:NewTab("Your Bizare Adventure")
+local SecondSection = BGS:NewSection("Yba")
+
+SecondSection:NewButton("Load Script", "loads the Your Bizare Adventure script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Tobias020108Back/YBA-AUT/main/YBA-GUI-Rewrite.lua"))()
+end)
+
+-- A Universal Time
+local BGS = Window:NewTab("A Universal Time")
+local SecondSection = BGS:NewSection("Aut")
+
+SecondSection:NewButton("Load Script", "kill aura", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ewyzu/ewyzu-scripts/main/ewyzu-AUT"))()
+end)
+
+-- World Zero
+local BGS = Window:NewTab("World Zero")
+local SecondSection = BGS:NewSection("World Zero")
+
+SecondSection:NewButton("Load Script", "needs key but is very nice", function()
+    loadstring(game:HttpGet"https://thedragonslayer2.github.io")()
+end)
+
+-- A Heroes Destiny
+local BGS = Window:NewTab("A Heroes Destiny")
+local SecondSection = BGS:NewSection("AHD")
+
+SecondSection:NewButton("Load Script", "loads the A Heroes Destiny script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Solx69/Shit-Boy-Hub-Main/main/AHD'))()
+end)
+
+-- A One Piece Game
+local BGS = Window:NewTab("A One Piece Game")
+local SecondSection = BGS:NewSection("AOPG")
+
+SecondSection:NewButton("Load Script", "loads the A One Piece Game script", function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/loader_1038"))()
+end)
+
+-- Speed
+local BGS = Window:NewTab("Speed")
+local SecondSection = BGS:NewSection("Speed")
+
+SecondSection:NewButton("Load Script", "loads the Speed script", function()
+    local plr = game.Players.LocalPlayer
+	local char = plr.Character
+
+	char.Humanoid.WalkSpeed =500000
+end)
