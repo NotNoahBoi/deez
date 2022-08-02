@@ -70,7 +70,7 @@ local BGS = Window:NewTab("Blox Fruits")
 local SecondSection = BGS:NewSection("BF")
 
 SecondSection:NewButton("Load Script", "loads the Blox Fruits script", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/ATR",true))()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
 end)
 
 -- Speed
